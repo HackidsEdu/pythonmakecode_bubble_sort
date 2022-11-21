@@ -12,10 +12,11 @@ while (vEnd) {
     j = 0
     k = 0
     listastring = ""
-    lista = [54, 26, 93, 17, 77, 31, 44, 55, 20]
-    console.log("--->Processamento<---")
+    //  lista = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+    lista = [26, 17, 31, 44, 20]
+    console.log("->Processamento<-")
+    console.log(lista)
     while (i < lista.length - 1) {
-        console.log("-")
         console.log(lista)
         basic.pause(200)
         j = 0
@@ -27,8 +28,7 @@ while (vEnd) {
             }
             
             j = j + 1
-            console.log("--")
-            console.log(lista)
+            // print(lista)
             basic.pause(200)
         }
         i = i + 1
